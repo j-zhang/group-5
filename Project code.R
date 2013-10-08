@@ -1,4 +1,4 @@
-####Things to Download:
+####Things to Download####
 R-studio v0.97: http://www.rstudio.com/ide/download/desktop
 OR
 R v3.0.2: http://cran.r-project.org/bin/windows/base/
