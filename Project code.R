@@ -91,14 +91,16 @@ abline(linearModel)
 cor(classCount, personalCount)
 
 
-#Visualization# 
+##Visualization## 
 learningStylenName<-c('Visual','Aural','Read/Write','Kinesthetic','Multimodal')
 cex <- 4*technicalCount
 colour<- as.factor(learningStyle)
-plot(classCount, personalCount,pch=1,cex=cex,xlim=c(0,10),ylim=c(0,12),col=colour,
+plot(classCount, personalCount,pch=16,cex=cex,xlim=c(0,10),ylim=c(0,12),col=adjustcolor(colour,0.6),
      main='Traits of Technical Leads',xlab='Number of Topics (via classes taken)',ylab='Number of Topics (via  personal experience)')
 linearModel = lm(personalCount ~ classCount)
 abline(linearModel)
 legend(x=-.4,y=12.5,legend=learningStylenName,fill=levels(colour),title='legend',cex=0.7)
 ##cor(classCount, personalCount)##
+
+
 
