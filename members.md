@@ -1,4 +1,4 @@
-+ Alisha Agrawal <alisha791@berkeley.edu>, Curator
-+ Raymond Ma <rayma@berkeley.edu>, Visualizer
-+ Yoojin Jang <all4ujin@berkeley.edu>, Integrator
-+ Jody Zhang <jodyzhang@berkeley.edu>, Analyzer
++ Alisha Agrawal (alisha791), Curator
++ Raymond Ma (raymondma1), Visualizer
++ Yoojin Jang (all4ujin), Integrator
++ Jody Zhang (j-zhang), Analyzer
