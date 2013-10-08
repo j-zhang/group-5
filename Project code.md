@@ -3,7 +3,7 @@ R-studio v0.97: http://www.rstudio.com/ide/download/desktop
 OR
 R v3.0.2: http://cran.r-project.org/bin/windows/base/
 
-"
+
 OrigData = read.csv(file="~/Documents/Fall 2013/Stats 157/Copy of Stat 157 Questionnaire (Results Redacted) - Form Responses.csv")
 library(ggplot)
 
@@ -101,4 +101,4 @@ linearModel = lm(personalCount ~ classCount)
 abline(linearModel)
 legend(x=-.4,y=12.5,legend=learningStylenName,fill=levels(colour),title='legend',cex=0.7)
 ##cor(classCount, personalCount)##
-"
+
